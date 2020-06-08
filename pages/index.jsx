@@ -4,9 +4,7 @@ import Intro from "../components/Intro";
 
 const IndexPage = () => (
   <PageLayout>
-    <div className="max-w-5xl mx-auto p-2 md:p-4 text-center">
-      <Intro />
-    </div>
+    <Intro />
   </PageLayout>
 );
 
