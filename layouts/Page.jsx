@@ -23,7 +23,7 @@ const PageLayout = ({
       />
     </Head>
 
-    <div className="antialiased">
+    <div className="antialiased min-h-screen bg-gray-200">
       <Header />
 
       <div className="overflow-hidden">
