@@ -1,7 +1,10 @@
 import React from "react";
 import PageLayout from "../layouts/Page";
 import Intro from "../components/Intro";
-import ContentBox, { ContentHeader, ContentList } from "../components/ContentBox";
+import Saperator from "../components/Saperator";
+import ContentBox from "../components/ContentBox";
+import ContentList from "../components/ContentList";
+import ContentHeader from "../components/ContentHeader";
 
 const experiences = [
   {
@@ -57,8 +60,14 @@ const IndexPage = () => (
   <PageLayout>
     <Intro />
 
+    <Saperator />
+
     <div className="max-w-3xl mx-auto py-8 md:px-8">
-      <div className="bg-white md:rounded md:shadow">
+      <p className="text-sm text-center text-gray-700 uppercase tracking-wide font-bold">
+        Experience
+      </p>
+
+      <div className="bg-white md:rounded-lg md:shadow mt-4">
         {experiences.map(({ title, subtitle, items }) => (
           <div key={title} className="border-b">
             <ContentBox header={(
