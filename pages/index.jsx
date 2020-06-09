@@ -10,6 +10,7 @@ const experiences = [
   {
     title: "Software Developer",
     subtitle: "Leadrevr • Full Time",
+    subsubtitle: "Jan 2019 - May 2020 • 1 Yr 4 Mos",
     items: [
       "Designed and built a SASS lead generation tool for used car dealerships.",
       "Built frontend for inventory management in React.",
@@ -22,6 +23,7 @@ const experiences = [
   {
     title: "Technical Systems Analyst Co-op",
     subtitle: "RBC • Internship",
+    subsubtitle: "Sep 2018 - Dec 2018 • 4 Mos",
     items: [
       "Verified the data and documentation of web services across teams.",
       "Built a proof-of-concept of an internal application for testing in Node.js.",
@@ -33,6 +35,7 @@ const experiences = [
   {
     title: "Software Developer",
     subtitle: "Derman Inc. • Part Time",
+    subsubtitle: "Feb 2018 - Aug 2018 • 7 Mos",
     items: [
       "Architected the entire web application with my team.",
       "Built features and implemented business logic.",
@@ -45,6 +48,7 @@ const experiences = [
   {
     title: "Programmer Co-op",
     subtitle: "Renegade Digital Media Inc. • Internship",
+    subsubtitle: "Sep 2017 - Dec 2017 • 4 Mos",
     items: [
       "Built designs provided by the Lead Designer.",
       "Came up with a scalable and clean solution for functionality in the client's application.",
@@ -68,10 +72,10 @@ const IndexPage = () => (
       </p>
 
       <div className="bg-white md:rounded-lg md:shadow mt-4">
-        {experiences.map(({ title, subtitle, items }) => (
+        {experiences.map(({ title, subtitle, subsubtitle, items }) => (
           <div key={title} className="border-b">
             <ContentBox header={(
-              <ContentHeader {...{title, subtitle}}/>
+              <ContentHeader {...{title, subtitle, subsubtitle}}/>
             )}>
               <ContentList items={items} />
             </ContentBox>
