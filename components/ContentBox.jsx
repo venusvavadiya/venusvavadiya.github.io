@@ -1,23 +1,5 @@
 import React, { useState } from "react";
 
-export const ContentHeader = ({ title, subtitle }) => (
-  <div className="p-2 md:p-4">
-    <p className="text-lg font-bold">
-      {title}
-    </p>
-
-    <p className="text-gray-700">
-      {subtitle}
-    </p>
-  </div>
-);
-
-export const ContentList = ({ items }) => (
-  <ul className="pl-8 list-disc">
-    {items.map(i => <li key={i}>{i}</li>)}
-  </ul>
-);
-
 const ContentBox = ({ header, children }) => {
   const [isOpen, setIsOpen] = useState(false);
 
