@@ -15,7 +15,7 @@ const Experience = () => (
 
     <SectionContent>
       {experiences.map(({ title, subtitle, subsubtitle, items }) => (
-        <div key={title} className="border-b">
+        <div key={title + subsubtitle} className="border-b">
           <ContentBox header={(
             <ContentHeader {...{title, subtitle, subsubtitle}}/>
           )}>
