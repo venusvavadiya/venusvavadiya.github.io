@@ -42,8 +42,8 @@ export const experiences = [
     subtitle: "Renegade Digital Media Inc. • Internship",
     subsubtitle: "Sep 2017 - Dec 2017 • 4 Mos",
     items: [
-      "Built designs provided by the Lead Designer.",
-      "Came up with a scalable and clean solution for functionality in the client's application.",
+      "Built frontend following designs provided by Lead Designer.",
+      "Proposed ideas for clean and scalable application for client.",
       "Learned as much as possible from my mentor.",
       "Updated and maintained data for current applications.",
       "Contributed by taking a design initiative on one of the applications.",
