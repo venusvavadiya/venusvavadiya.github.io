@@ -1,14 +1,14 @@
 import React from "react";
 import PageLayout from "../layouts/Page";
 import Intro from "../components/Intro";
-import Saperator from "../components/Saperator";
-import ContentBox from "../components/ContentBox";
-import ContentList from "../components/ContentList";
-import ContentHeader from "../components/ContentHeader";
+import Saperator from "../base/Saperator";
+import ContentBox from "../base/ContentBox";
+import ContentList from "../base/ContentList";
+import ContentHeader from "../base/ContentHeader";
 import { experiences } from "../data";
-import Section from "../components/Section";
-import SectionTitle from "../components/SectionTitle";
-import SectionContent from "../components/SectionContent";
+import Section from "../base/Section";
+import SectionTitle from "../base/SectionTitle";
+import SectionContent from "../base/SectionContent";
 
 const IndexPage = () => (
   <PageLayout>
