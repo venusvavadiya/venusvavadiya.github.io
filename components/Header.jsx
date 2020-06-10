@@ -12,11 +12,19 @@ const Header = () => (
     </div>
 
     <div className="flex p-1 md:p-2">
-      <a className="block p-1 md:p-2">
+      <a
+        target="_blank"
+        href="https://github.com/venusvavadiya"
+        className="block p-1 md:p-2"
+      >
         GitHub
       </a>
 
-      <a className="block p-1 md:p-2">
+      <a
+        target="_blank"
+        href="https://www.linkedin.com/in/venusvavadiya/"
+        className="block p-1 md:p-2"
+      >
         LinkedIn
       </a>
     </div>
