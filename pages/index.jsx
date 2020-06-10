@@ -6,6 +6,9 @@ import ContentBox from "../components/ContentBox";
 import ContentList from "../components/ContentList";
 import ContentHeader from "../components/ContentHeader";
 import { experiences } from "../data";
+import Section from "../components/Section";
+import SectionTitle from "../components/SectionTitle";
+import SectionContent from "../components/SectionContent";
 
 const IndexPage = () => (
   <PageLayout>
@@ -13,12 +16,12 @@ const IndexPage = () => (
 
     <Saperator />
 
-    <div className="max-w-3xl mx-auto py-8 md:px-8">
-      <p className="text-sm text-center text-gray-700 uppercase tracking-wide font-bold">
+    <Section>
+      <SectionTitle>
         Experience
-      </p>
+      </SectionTitle>
 
-      <div className="bg-white md:rounded-lg md:shadow mt-4">
+      <SectionContent>
         {experiences.map(({ title, subtitle, subsubtitle, items }) => (
           <div key={title} className="border-b">
             <ContentBox header={(
@@ -28,8 +31,8 @@ const IndexPage = () => (
             </ContentBox>
           </div>
         ))}
-      </div>
-    </div>
+      </SectionContent>
+    </Section>
 
   </PageLayout>
 );
