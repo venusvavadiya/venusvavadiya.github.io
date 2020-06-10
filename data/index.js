@@ -33,7 +33,7 @@ export const experiences = [
       "Built features and implemented business logic.",
       "Guided and helped the team whenever and wherever required.",
       "Collaborated with a remote developer.",
-      "Successfully completed the project within limits of time and budget",
+      "Successfully completed the project within limits of time and budget.",
     ],
   },
 
