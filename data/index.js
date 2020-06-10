@@ -44,10 +44,10 @@ export const experiences = [
     items: [
       "Built frontend following designs provided by Lead Designer.",
       "Proposed ideas for clean and scalable application for client.",
-      "Learned as much as possible from my mentor.",
+      "Took initiatives and responsibility to learn for the task at hand.",
       "Updated and maintained data for current applications.",
       "Contributed by taking a design initiative on one of the applications.",
-      "Achieved Veeva certification for the company."
+      "Contributed to the company for earning Veeva certification."
     ],
   },
 ];
