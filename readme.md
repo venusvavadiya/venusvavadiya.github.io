@@ -1,1 +1,3 @@
-[![Venus Vavadiya](https://venusvavadiya.com/ShotIntro.png)](https://venusvavadiya.com/)
+<p align="center">
+  <img src="https://venusvavadiya.com/ShotContent.png">
+</p>
