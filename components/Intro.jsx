@@ -5,6 +5,7 @@ const Intro = () => (
     <img
       className="w-48 h-48 mx-auto rounded-full m-8"
       alt="Profile"
+      rel="image_src"
       src="/ProfessionalImage.jpg"
     />
 
