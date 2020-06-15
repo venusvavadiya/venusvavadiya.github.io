@@ -8,7 +8,7 @@ export const experiences = [
       "Built frontend for inventory management in React.",
       "Developed backend API using Python and MongoDB.",
       "Developed automated ad publishing using Python.",
-      "Built various scraping projects to collect automotive data using Python",
+      "Built various scraping projects to collect automotive data using Python.",
     ],
   },
 
