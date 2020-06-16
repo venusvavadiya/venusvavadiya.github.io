@@ -27,7 +27,7 @@ export const experiences = [
   {
     title: "Software Developer",
     subtitle: "Derman Inc. • Part Time",
-    subsubtitle: "Feb 2018 - Aug 2018 • 7 Mos",
+    subsubtitle: "Jan 2018 - Aug 2018 • 8 Mos",
     items: [
       "Architected the entire web application with my team.",
       "Built features and implemented business logic.",
