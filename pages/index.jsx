@@ -12,7 +12,12 @@ const IndexPage = () => (
     <Saperator />
 
     <Skills />
+
+    <Saperator />
+
     <Experience />
+
+    <Saperator />
 
   </PageLayout>
 );
