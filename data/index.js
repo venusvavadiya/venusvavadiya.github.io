@@ -1,3 +1,25 @@
+export const skills = [
+  {
+    title: "Engineering",
+    subtitle: "Object Oriented Design, Data Structures and Algorithms, MVC Architecture, Microservices Architecture, Design Patterns, ORM, REST, GraphQL, Docker, Git, CI, CD, AWS, Clean Code, and Unit Testing.",
+  },
+
+  {
+    title: "Languages",
+    subtitle: "JavaScript, TypeScript, PHP, Python, SQL, HTML and CSS.",
+  },
+
+  {
+    title: "Extras",
+    subtitle: "React, Vue, Express, Swagger, Laravel, WordPress, Pandas, Flask, MySQL, Bootstrap, Tailwind, Foundation, Bulma, Material Design.",
+  },
+
+  {
+    title: "Tools",
+    subtitle: "UML, Microsoft Office, Microsoft Visio, Adobe XD, Trello and Notion.",
+  },
+];
+
 export const experiences = [
   {
     title: "Software Developer",
