@@ -14,13 +14,11 @@ const Skills = () => (
     </SectionTitle>
 
     <SectionContent>
-      {skills.map(({ title, subtitle, subsubtitle, items }) => (
-        <div key={title + subsubtitle} className="border-b">
+      {skills.map(({ title, subtitle }) => (
+        <div key={title + subtitle} className="border-b">
           <ContentBox header={(
-            <ContentHeader {...{title, subtitle, subsubtitle}}/>
-          )}>
-            <ContentList items={items} />
-          </ContentBox>
+            <ContentHeader {...{title, subtitle}}/>
+          )} />
         </div>
       ))}
     </SectionContent>
