@@ -7,7 +7,7 @@ const ContentBox = ({ header, children }) => (
     </div>
 
     { children && (
-      <div className="p-2 md:p-4">
+      <div className="p-2 md:p-4 -mt-2 md:-mt-4">
         {children}
       </div>
     )}
