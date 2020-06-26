@@ -14,6 +14,14 @@ const Header = () => (
     <div className="flex p-1 md:p-2">
       <a
         target="_blank"
+        href="/Resume.pdf"
+        className="block p-1 md:p-2"
+      >
+        Resume
+      </a>
+
+      <a
+        target="_blank"
         href="https://github.com/venusvavadiya"
         className="block p-1 md:p-2"
       >
