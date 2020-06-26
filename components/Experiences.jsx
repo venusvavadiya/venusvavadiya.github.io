@@ -7,7 +7,7 @@ import ContentList from "../base/ContentList";
 import ContentHeader from "../base/ContentHeader";
 import { experiences } from "../data";
 
-const Experience = () => (
+const Experiences = () => (
   <Section>
     <SectionTitle>
       Experience
@@ -27,4 +27,4 @@ const Experience = () => (
   </Section>
 );
 
-export default Experience;
+export default Experiences;
