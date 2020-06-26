@@ -5,7 +5,7 @@ import SectionContent from "../base/SectionContent";
 import ContentBox from "../base/ContentBox";
 import ContentList from "../base/ContentList";
 import ContentHeader from "../base/ContentHeader";
-import { experiences } from "../data";
+import { experiences } from "../content";
 
 const Experiences = () => (
   <Section>
