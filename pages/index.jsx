@@ -2,6 +2,7 @@ import React from "react";
 import PageLayout from "../layouts/Page";
 import Saperator from "../base/Saperator";
 import Intro from "../components/Intro";
+import Skills from "../components/Skills";
 import Experience from "../components/Experience";
 
 const IndexPage = () => (
@@ -10,6 +11,7 @@ const IndexPage = () => (
 
     <Saperator />
 
+    <Skills />
     <Experience />
 
   </PageLayout>
