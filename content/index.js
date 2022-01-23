@@ -52,7 +52,7 @@ export const experiences = [
   {
     title: "Software Developer",
     subtitle: "Ideal Fine Cars • Full Time",
-    subsubtitle: "Jan 2019 - May 2020 • 1 Yr 4 Mos",
+    subsubtitle: "Jan 2019 - May 2020 • 1 Yr 5 Mos",
     items: [
       "Designed and built an internal real-time dashboard to track approx 1000 auctions/week.",
       "Built inventory website for the Car dealership that auto-updates by scraping Autotrader.",
