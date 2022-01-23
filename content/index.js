@@ -1,7 +1,7 @@
 export const skills = [
   {
     title: "Engineering",
-    subtitle: "Object Oriented Design, Data Structures and Algorithms, MVC Architecture, Microservices Architecture, Design Patterns, ORM, REST, GraphQL, Docker, Git, CI, CD, AWS, Clean Code, and Unit Testing.",
+    subtitle: "Object Oriented Design, Data Structures and Algorithms, MVC Architecture, CQRS, EventSourcing, Microservices Architecture, Design Patterns, ORM, REST, GraphQL, Docker, Git, CI, CD, AWS, Clean Code, and Unit Testing.",
   },
 
   {
@@ -22,15 +22,43 @@ export const skills = [
 
 export const experiences = [
   {
+    title: "Lead Software Developer",
+    subtitle: "Self Employed",
+    subsubtitle: "Aug 2021 - Present",
+    items: [
+      "Developing a 10000 NFT collection project with friends to learn about blockchain and crypto.",
+      "Used DDD, CQRS and EventSourcing for core logic. GraphQL for real-time features.",
+      "Used microservices for blockchain, shopping, image processing functionalities.",
+      "Wrote various automation scripts in Python to generate 200K+ images.",
+      "Built two open-source npm packages for code reusability.",
+      "Hired and managed contract developers to develop independent parts of the project.",
+      "Technologies: TS, Python, NestJS, EventStoreDB, MongoDB, GraphQL, Vue, Vuetify, Strapi CMS",
+    ],
+  },
+
+  {
+    title: "Application Developer",
+    subtitle: "FarmLink Marketing Solutions • Full-time",
+    subsubtitle: "Jul 2020 - Apr 2021 • 10 mos",
+    items: [
+      "Designed and implemented the in-app analytics dashboard.",
+      "Added feature to write in rich text using TinyMCE to improve UX. ",
+      "Refactored the front-end in multiple reusable components using Vue.",
+      "Participated in the hiring and onboarding of new developers.",
+      "Technologies: Python, Django, MySQL, Vue, Vuetify",
+    ],
+  },
+
+  {
     title: "Software Developer",
-    subtitle: "Leadrevr • Full Time",
+    subtitle: "Ideal Fine Cars • Full Time",
     subsubtitle: "Jan 2019 - May 2020 • 1 Yr 4 Mos",
     items: [
-      "Designed and built a SASS lead generation tool for used car dealerships.",
-      "Built frontend for inventory management in React.",
-      "Developed backend API using Python and MongoDB.",
-      "Developed automated ad publishing using Python.",
-      "Built various scraping projects to collect automotive data using Python.",
+      "Designed and built an internal real-time dashboard to track approx 1000 auctions/week.",
+      "Built inventory website for the Car dealership that auto-updates by scraping Autotrader.",
+      "Developed the backend APIs using Python and MongoDB.",
+      "Developed various scraping tools and collected automotive data using Python.",
+      "Technologies: Python, Flask, MongoDB, Vue, React, Tailwind CSS",
     ],
   },
 
@@ -40,22 +68,19 @@ export const experiences = [
     subsubtitle: "Sep 2018 - Dec 2018 • 4 Mos",
     items: [
       "Verified the data and documentation of web services across teams.",
-      "Built a proof-of-concept of an internal application for testing in Node.js.",
-      "Created and documented stored procedures in T-SQL for the backup and restore.",
-      "Built solutions through automation that can make developers productive.",
+      "Built a proof of concept of an internal application to manage test data.",
+      "Created and documented stored procedures for the backup and restoration of test data.",
+      "Technologies: Express, T-SQL, Angular",
     ],
   },
 
   {
     title: "Software Developer",
     subtitle: "Derman Inc. • Part Time",
-    subsubtitle: "Jan 2018 - Aug 2018 • 8 Mos",
+    subsubtitle: "Feb 2018 - Aug 2018 • 7 Mos",
     items: [
-      "Architected the entire web application with my team.",
-      "Built features and implemented business logic.",
-      "Guided and helped the team whenever and wherever required.",
-      "Collaborated with a remote developer.",
-      "Successfully completed the project within limits of time and budget.",
+      "Built an MVP with friends.",
+      "Technologies: Laravel, MySQL, Bootstrap, Vue, Laravel Forge",
     ],
   },
 
@@ -64,12 +89,9 @@ export const experiences = [
     subtitle: "Renegade Digital Media Inc. • Internship",
     subsubtitle: "Sep 2017 - Dec 2017 • 4 Mos",
     items: [
-      "Built frontend following designs provided by Lead Designer.",
-      "Proposed ideas for clean and scalable application for client.",
-      "Took initiatives and responsibility to learn for the task at hand.",
-      "Updated and maintained data for current applications.",
-      "Contributed by taking a design initiative on one of the applications.",
-      "Contributed to the company for earning Veeva certification."
+      "Built frontend in Bootstrap following the designs provided.",
+      "Contributed to the company by earning a Veeva certification.",
+      "Technologies: Symfony, MySQL, React",
     ],
   },
 ];

@@ -11,11 +11,11 @@ const IndexPage = () => (
 
     <Saperator />
 
-    <Skills />
+    <Experience />
 
     <Saperator />
 
-    <Experience />
+    <Skills />
 
     <Saperator />
 
