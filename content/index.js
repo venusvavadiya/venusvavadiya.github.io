@@ -22,21 +22,6 @@ export const skills = [
 
 export const experiences = [
   {
-    title: "Lead Software Developer",
-    subtitle: "Self Employed",
-    subsubtitle: "Aug 2021 - Present",
-    items: [
-      "Developing a 10000 NFT collection project with friends to learn about blockchain and crypto.",
-      "Used DDD, CQRS and EventSourcing for core logic. GraphQL for real-time features.",
-      "Used microservices for blockchain, shopping, image processing functionalities.",
-      "Wrote various automation scripts in Python to generate 200K+ images.",
-      "Built two open-source npm packages for code reusability.",
-      "Hired and managed contract developers to develop independent parts of the project.",
-      "Technologies: TS, Python, NestJS, EventStoreDB, MongoDB, GraphQL, Vue, Vuetify, Strapi CMS",
-    ],
-  },
-
-  {
     title: "Application Developer",
     subtitle: "FarmLink Marketing Solutions • Full-time",
     subsubtitle: "Jul 2020 - Apr 2021 • 10 mos",
