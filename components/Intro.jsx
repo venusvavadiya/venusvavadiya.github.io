@@ -14,11 +14,10 @@ const Intro = () => (
         Hi there, I am Venus.
       </p>
 
-      {/*
-        <p className="text-gray-700 p-1 md:p-2">
-          I am currently looking for Full Stack Development opportunities in the Winnipeg area.
-        </p>
-      */}
+
+      <p className="text-gray-700 p-1 md:p-2">
+        I am currently looking for remote Full Stack Development opportunities in North America.
+      </p>
     </div>
   </div>
 );
