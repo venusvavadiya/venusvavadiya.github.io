@@ -22,13 +22,40 @@ export const skills = [
 
 export const experiences = [
   {
+    title: "Software Engineer",
+    subtitle: "pesto.app • Permanent Full-time",
+    subsubtitle: "Mar 2022 - Sep 2022",
+    items: [
+      "Pesto is a digital workplace platform serving remote teams through Web and Mobile Apps.",
+      "Revamped the primary view of the web app, featuring the Main Office screen.",
+      "Integrated Segment Analytics in Mobile to measure KPIs.",
+      "Owned mobile development and deployment using React Native.",
+      "Technologies: TS, TypeORM, GraphQL, React, React Native.",
+    ],
+  },
+
+  {
+    title: "Software Engineer",
+    subtitle: "Freelance",
+    subsubtitle: "Aug 2021 - Feb 2022",
+    items: [
+      "Developed Diamond data scraping tool to aggregate data for a brokerage firm.",
+      "Developing a 10000 NFT collection project. Generated 200K+ images.",
+      "Implemented DDD, CQRS, and Event Sourcing concepts for the core with a GraphQL API design.",
+      "Used microservices for blockchain, shopping, and image processing functionalities.",
+      "Built two open-source npm packages for code reusability.",
+      "Technologies: TS, Python, NestJS, EventStoreDB, MongoDB, GraphQL, Vue, Vuetify, Strapi CMS",
+    ],
+  },
+
+  {
     title: "Application Developer",
-    subtitle: "FarmLink Marketing Solutions • Full-time",
-    subsubtitle: "Jul 2020 - Apr 2021 • 10 mos",
+    subtitle: "FarmLink Marketing Solutions • Permanent Full-time",
+    subsubtitle: "Jul 2020 - Apr 2021",
     items: [
       "Designed and implemented the in-app analytics dashboard.",
-      "Added feature to write in rich text using TinyMCE to improve UX. ",
-      "Refactored the front-end in multiple reusable components using Vue.",
+      "Implemented TinyMCE editor to facilitate blog posting in the app.",
+      "Improved DX on the frontend using modularity and reusability in Vue.",
       "Participated in the hiring and onboarding of new developers.",
       "Technologies: Python, Django, MySQL, Vue, Vuetify",
     ],
@@ -36,12 +63,12 @@ export const experiences = [
 
   {
     title: "Software Developer",
-    subtitle: "Ideal Fine Cars • Full Time",
-    subsubtitle: "Jan 2019 - May 2020 • 1 Yr 5 Mos",
+    subtitle: "Ideal Fine Cars • Permanent Full-time",
+    subsubtitle: "Jan 2019 - May 2020",
     items: [
-      "Designed and built an internal real-time dashboard to track approx 1000 auctions/week.",
-      "Built inventory website for the Car dealership that auto-updates by scraping Autotrader.",
-      "Developed the backend APIs using Python and MongoDB.",
+      "Designed and built an internal real-time dashboard to track ~1000 auctions/week.",
+      "Developed a full-stack web application for the Car Dealership.",
+      "Developed the backend REST APIs using Python Flask and MongoDB.",
       "Developed various scraping tools and collected automotive data using Python.",
       "Technologies: Python, Flask, MongoDB, Vue, React, Tailwind CSS",
     ],
@@ -50,18 +77,17 @@ export const experiences = [
   {
     title: "Technical Systems Analyst Co-op",
     subtitle: "RBC • Internship",
-    subsubtitle: "Sep 2018 - Dec 2018 • 4 Mos",
+    subsubtitle: "Sep 2018 - Dec 2018",
     items: [
       "Verified the data and documentation of web services across teams.",
       "Built a proof of concept of an internal application to manage test data.",
-      "Created and documented stored procedures for the backup and restoration of test data.",
       "Technologies: Express, T-SQL, Angular",
     ],
   },
 
   {
     title: "Software Developer",
-    subtitle: "Derman Inc. • Part Time",
+    subtitle: "Derman Inc. • Part-time",
     subsubtitle: "Feb 2018 - Aug 2018 • 7 Mos",
     items: [
       "Built an MVP with friends.",
