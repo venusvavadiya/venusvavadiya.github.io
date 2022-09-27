@@ -16,7 +16,7 @@ export const skills = [
 
   {
     title: "Tools",
-    subtitle: "UML, Microsoft Office, Microsoft Visio, Adobe XD, Trello and Notion.",
+    subtitle: "UML, Microsoft Office, Microsoft Visio, Adobe XD, Figma, Linear, Trello and Notion.",
   },
 ];
 
