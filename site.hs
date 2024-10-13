@@ -4,9 +4,11 @@ import Hakyll
   ( Configuration (destinationDirectory),
     compile,
     constRoute,
+    copyFileCompiler,
     defaultConfiguration,
     defaultContext,
     hakyllWith,
+    idRoute,
     loadAndApplyTemplate,
     match,
     pandocCompiler,
@@ -29,5 +31,8 @@ main = hakyllWith config $ do
       pandocCompiler
         >>= loadAndApplyTemplate "templates/default.html" defaultContext
         >>= relativizeUrls
+  match "css/*" $ do
+    route idRoute
+    compile copyFileCompiler
   match "templates/*" $ do
     compile templateBodyCompiler
