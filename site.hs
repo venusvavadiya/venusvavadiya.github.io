@@ -7,14 +7,24 @@ import Hakyll
     copyFileCompiler,
     defaultConfiguration,
     defaultContext,
+    defaultHakyllReaderOptions,
+    defaultHakyllWriterOptions,
     hakyllWith,
     idRoute,
     loadAndApplyTemplate,
     match,
-    pandocCompiler,
+    pandocCompilerWith,
     relativizeUrls,
     route,
     templateBodyCompiler,
+  )
+import Text.Pandoc.Extensions
+  ( Extension (Ext_fenced_divs),
+    enableExtension,
+  )
+import Text.Pandoc.Options
+  ( ReaderOptions,
+    readerExtensions,
   )
 
 config :: Configuration
@@ -28,7 +38,7 @@ main = hakyllWith config $ do
   match "content/index.md" $ do
     route $ constRoute "index.html"
     compile $
-      pandocCompiler
+      pandocCompilerWith readerOptions defaultHakyllWriterOptions
         >>= loadAndApplyTemplate "templates/default.html" defaultContext
         >>= relativizeUrls
   match "css/*" $ do
@@ -36,3 +46,11 @@ main = hakyllWith config $ do
     compile copyFileCompiler
   match "templates/*" $ do
     compile templateBodyCompiler
+
+readerOptions :: ReaderOptions
+readerOptions =
+  defaultHakyllReaderOptions
+    { readerExtensions =
+        enableExtension Ext_fenced_divs $
+          readerExtensions defaultHakyllReaderOptions
+    }

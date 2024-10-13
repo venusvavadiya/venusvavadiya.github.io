@@ -2,6 +2,10 @@
 title: Venus Vavadiya
 ---
 
+:::{.container}
+
+:::{#experiences-section}
+
 ## Experiences
 
 ### Founding Software Engineer
@@ -50,3 +54,7 @@ Derman
 ### Programmer (Internship)
 Renegade Digital Media
 [2017-09]-[2017-12]
+
+:::
+
+:::
