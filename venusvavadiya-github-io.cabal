@@ -1,0 +1,20 @@
+cabal-version:      3.0
+name:               venusvavadiya-github-io
+version:            0.1.0.0
+license:            NONE
+author:             Venus Vavadiya
+maintainer:         thisisvenusvavadiya@gmail.com
+build-type:         Simple
+extra-doc-files:    CHANGELOG.md
+
+common warnings
+    ghc-options: -Wall
+
+executable site
+    import:           warnings
+    main-is:          site.hs
+    build-depends:    base
+                    , containers
+                    , hakyll
+                    , pandoc
+    default-language: Haskell2010
