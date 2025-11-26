@@ -1,0 +1,121 @@
+body {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+}
+
+h1 {
+    font-size: 3.75rem;
+    line-height: 1;
+
+    @media (min-width: 768px) {
+        font-size: 4.5rem;
+        line-height: 1;
+    }
+}
+
+h2 {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+
+    @media (min-width: 768px) {
+        font-size: 3rem;
+        line-height: 1;
+    }
+}
+
+h3 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+
+    @media (min-width: 768px) {
+        font-size: 1.875rem;
+        line-height: 2.25rem;
+    }
+}
+
+hr {
+    border-color: #dedede;
+}
+
+ul {
+    padding-left: 1rem;
+    list-style-type: disc;
+}
+
+li,
+p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+
+    @media (min-width: 768px) {
+        font-size: 1.125rem;
+        line-height: 1.75rem;
+    }
+}
+
+small {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+
+    @media (min-width: 768px) {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+
+    h1 {
+        padding: 2rem 1rem;
+        width: 100%;
+
+        @media (min-width: 768px) {
+            border-left: 1px solid #dedede;
+            border-right: 1px solid #dedede;
+            max-width: 1024px;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 4rem;
+        }
+    }
+}
+
+.experiences {
+    display: flex;
+    flex-direction: column;
+
+    h2,
+    .experience {
+        padding: 2rem 1rem;
+        width: 100%;
+
+        @media (min-width: 768px) {
+            border-left: 1px solid #dedede;
+            border-right: 1px solid #dedede;
+            max-width: 1024px;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 4rem;
+        }
+    }
+
+    .experience {
+        display: flex;
+        flex-direction: column;
+        gap: 0.25rem;
+
+        @media (min-width: 768px) {
+            gap: 0.5rem;
+        }
+
+        ul {
+            margin-top: 0.5rem;
+
+            @media (min-width: 768px) {
+                padding-left: 2rem;
+            }
+        }
+    }
+}
