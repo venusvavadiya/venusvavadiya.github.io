@@ -20,8 +20,17 @@ title: Venus Vavadiya
 
 :::{.experience}
 
+### Senior Software Engineer
+<small>Wedbush Technology Services [2025-10]-[Present]</small>
+
+:::
+
+<hr />
+
+:::{.experience}
+
 ### Founding Software Engineer
-<small>Neurelo [2022-11]-[Present]</small>
+<small>Neurelo [2022-11]-[2025-07]</small>
 
 - Built various AI integrations in the product to generate schemas, queries, and APIs.
 - Implemented a git-like versioning system in PostgreSQL to track the project's data definitions.
